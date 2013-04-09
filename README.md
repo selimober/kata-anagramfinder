@@ -35,3 +35,7 @@ and the value (`List<String>`) is a list of words for this key. For the example 
     AnagramList anagramList = new AnagramList(wordList);
 
     anagramList.getValues; // a List<List<String>> for every anagram in the original list
+
+## Known limitations
+
+* Works with english words.
